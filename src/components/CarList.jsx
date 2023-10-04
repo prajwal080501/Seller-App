@@ -1,30 +1,10 @@
-import React, { useState } from 'react'
-import { CarData } from '../data/data'
+import React, { useContext, useState } from 'react'
 import CarCard from './CarCard'
-import Pagination from './Pagination';
+import PaginationContext from '../context/PaginationContext';
 
-const CarList = ({carData}) => {
-    const [totalCars, setTotalCars] = useState(carData.length);
-    const [currentPage, setCurrentPage] = useState(1);
-    const [searchResults, setSearchResults] = useState([])
-    const carsPerPage = 6;
-    const indexOfLastCar = currentPage * carsPerPage;
-    const indexOfFirstCar = indexOfLastCar - carsPerPage;
-    const currentCars = carData.slice(indexOfFirstCar, indexOfLastCar);
-    const totalPages = Math.ceil(totalCars / carsPerPage);
+const CarList = () => {
 
-
-    function goToNextPage() {
-        if (currentPage < totalPages) {
-            setCurrentPage(currentPage + 1);
-        }
-    }
-
-    function goToPreviousPage() {
-        if (currentPage > 1) {
-            setCurrentPage(currentPage - 1);
-        }
-    }
+    const { currentCars} = useContext(PaginationContext);
 
     return (
         <>
