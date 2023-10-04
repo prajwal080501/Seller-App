@@ -10,7 +10,10 @@ const PaginationProvider = ({ children }) => {
 
     const indexOfLastCar = currentPage * carsPerPage;
     const indexOfFirstCar = indexOfLastCar - carsPerPage;
-    const currentCars = CarData.slice(indexOfFirstCar, indexOfLastCar);
+//    set currentCars 6 per page
+
+    const currentCars = 
+    CarData.slice(indexOfFirstCar, indexOfLastCar);
     const totalPages = Math.ceil(CarData.length / carsPerPage);
 
     function goToNextPage() {
