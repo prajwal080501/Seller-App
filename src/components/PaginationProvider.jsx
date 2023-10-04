@@ -4,6 +4,7 @@ import PaginationContext from "../context/PaginationContext";
 
 
 const PaginationProvider = ({ children }) => {
+    const [searchTerm, setSearchTerm] = useState("");
 
     const [currentPage, setCurrentPage] = useState(1);
     const [carsPerPage] = useState(6);
@@ -12,8 +13,13 @@ const PaginationProvider = ({ children }) => {
     const indexOfFirstCar = indexOfLastCar - carsPerPage;
 //    set currentCars 6 per page
 
-    const currentCars = 
-    CarData.slice(indexOfFirstCar, indexOfLastCar);
+    const currentCars = CarData.filter((car) => {
+        if (searchTerm === "") {
+            return car
+        } else if (car.name.toLowerCase().includes(searchTerm.toLowerCase())) {
+            return car
+        }
+    }).slice(indexOfFirstCar, indexOfLastCar);
     const totalPages = Math.ceil(CarData.length / carsPerPage);
 
     function goToNextPage() {
@@ -29,7 +35,7 @@ const PaginationProvider = ({ children }) => {
     }
 
     return (
-        <PaginationContext.Provider value={{ goToNextPage, goToPreviousPage, currentPage, totalPages, currentCars}}>
+        <PaginationContext.Provider value={{ goToNextPage, goToPreviousPage, currentPage, totalPages, currentCars, searchTerm, setSearchTerm}}>
             {children}
         </PaginationContext.Provider>
     )
