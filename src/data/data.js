@@ -48,7 +48,7 @@ export const CarData = [
         "rent": 30000
     },
     {
-        "id": 6,
+        "id": 5,
         "name": "Skoda Octavia",
         "model": "2021",
         "description": "The BMW 3 Series is a compact executive car manufactured by the German automaker BMW since May 1975. It is the successor to the 02 Series and has been produced in seven different generations.",
@@ -60,7 +60,7 @@ export const CarData = [
         "rent": 45000
     },
     {
-        "id": 5,
+        "id": 6,
         "name": "Ford Mustang",
         "model": "2021",
         "description": "The Ford Mustang is a series of American automobiles manufactured by Ford. In continuous production since 1964, the Mustang is currently the longest-produced Ford car nameplate.",
@@ -72,7 +72,7 @@ export const CarData = [
         "rent": 40000
     },
     {
-        "id": 6,
+        "id": 7,
         "name": "Hyundai Creta",
         "model": "2021",
         "description": "The Honda City is a subcompact car which has been produced by the Japanese manufacturer Honda since 1981. Originally made for the Japanese, European and Australasian markets, the City was retired in 1994 after the second generation.",
@@ -83,7 +83,7 @@ export const CarData = [
         "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/141115/creta-exterior-right-front-three-quarter-16.jpeg?isig=0&q=80&q=80",
     },
     {
-        "id": 7,
+        "id":8,
         "name": "Hyundai Venue",
         "model": "2021",
         "description": "The Honda City is a subcompact car which has been produced by the Japanese manufacturer Honda since 1981. Originally made for the Japanese, European and Australasian markets, the City was retired in 1994 after the second generation.",
@@ -94,7 +94,7 @@ export const CarData = [
         "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/141113/venue-exterior-right-front-three-quarter-16.jpeg?isig=0&q=80&q=80",
     },
     {
-        "id": 8,
+        "id": 9,
         "name": "Hyundai Creta",
         "model": "2021",
         "description": "The Honda City is a subcompact car which has been produced by the Japanese manufacturer Honda since 1981. Originally made for the Japanese, European and Australasian markets, the City was retired in 1994 after the second generation.",
@@ -105,7 +105,7 @@ export const CarData = [
         "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/141115/creta-exterior-right-front-three-quarter-16.jpeg?isig=0&q=80&q=80",
     },
     {
-        "id": 9,
+        "id": 10,
         "name": "Hyundai Exter",
         "model": "2021",
         "description": "The Honda City is a subcompact car which has been produced by the Japanese manufacturer Honda since 1981. Originally made for the Japanese, European and Australasian markets, the City was retired in 1994 after the second generation.",
@@ -116,7 +116,7 @@ export const CarData = [
         "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/144851/exter-exterior-right-front-three-quarter-29.jpeg?isig=0&q=80&q=80",
     },
     {
-        "id": 10,
+        "id": 11,
         "name": "Maruti Fronx",
         "model": "2021",
         "description": "The Honda City is a subcompact car which has been produced by the Japanese manufacturer Honda since 1981. Originally made for the Japanese, European and Australasian markets, the City was retired in 1994 after the second generation.",
@@ -127,7 +127,7 @@ export const CarData = [
         "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/130591/fronx-exterior-right-front-three-quarter-109.jpeg?isig=0&q=80&q=80",
     },
     {
-        "id": 11,
+        "id": 12,
         "name": "Mahindra Thar",
         "model": "2021",
         "description": "The Honda City is a subcompact car which has been produced by the Japanese manufacturer Honda since 1981. Originally made for the Japanese, European and Australasian markets, the City was retired in 1994 after the second generation.",
