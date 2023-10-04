@@ -12,7 +12,7 @@ const CarList = () => {
                 {
                     currentCars.map(({ name, id, rent, image, model, average, transmission, fuel, capacity }, index) => {
                         return (
-                            <CarCard key={image} name={name} rent={rent} image={image} model={model} transmission={transmission} fuel={fuel} capacity={capacity} average={average} />
+                            <CarCard key={id} name={name} rent={rent} image={image} model={model} transmission={transmission} fuel={fuel} capacity={capacity} average={average} />
                         )
                     }
                     )

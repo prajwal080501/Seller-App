@@ -72,7 +72,7 @@ export const CarData = [
         "rent": 40000
     },
     {
-        "id": 11,
+        "id": 6,
         "name": "Hyundai Creta",
         "model": "2021",
         "description": "The Honda City is a subcompact car which has been produced by the Japanese manufacturer Honda since 1981. Originally made for the Japanese, European and Australasian markets, the City was retired in 1994 after the second generation.",
@@ -83,7 +83,7 @@ export const CarData = [
         "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/141115/creta-exterior-right-front-three-quarter-16.jpeg?isig=0&q=80&q=80",
     },
     {
-        "id": 11,
+        "id": 7,
         "name": "Hyundai Venue",
         "model": "2021",
         "description": "The Honda City is a subcompact car which has been produced by the Japanese manufacturer Honda since 1981. Originally made for the Japanese, European and Australasian markets, the City was retired in 1994 after the second generation.",
@@ -94,7 +94,7 @@ export const CarData = [
         "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/141113/venue-exterior-right-front-three-quarter-16.jpeg?isig=0&q=80&q=80",
     },
     {
-        "id": 11,
+        "id": 8,
         "name": "Hyundai Creta",
         "model": "2021",
         "description": "The Honda City is a subcompact car which has been produced by the Japanese manufacturer Honda since 1981. Originally made for the Japanese, European and Australasian markets, the City was retired in 1994 after the second generation.",
@@ -105,7 +105,7 @@ export const CarData = [
         "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/141115/creta-exterior-right-front-three-quarter-16.jpeg?isig=0&q=80&q=80",
     },
     {
-        "id": 11,
+        "id": 9,
         "name": "Hyundai Exter",
         "model": "2021",
         "description": "The Honda City is a subcompact car which has been produced by the Japanese manufacturer Honda since 1981. Originally made for the Japanese, European and Australasian markets, the City was retired in 1994 after the second generation.",
@@ -116,7 +116,7 @@ export const CarData = [
         "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/144851/exter-exterior-right-front-three-quarter-29.jpeg?isig=0&q=80&q=80",
     },
     {
-        "id": 11,
+        "id": 10,
         "name": "Maruti Fronx",
         "model": "2021",
         "description": "The Honda City is a subcompact car which has been produced by the Japanese manufacturer Honda since 1981. Originally made for the Japanese, European and Australasian markets, the City was retired in 1994 after the second generation.",
